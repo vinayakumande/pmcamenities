@@ -6,8 +6,13 @@ var password = document.getElementById("password").value;
 if ( username == "ashish13" && password == "321")  {
 alert ("Login successfully");
 window.location = "amenityhome.html"; // Redirecting to other page.
-return false;
+  return false;
 }
+  else if (username=="rmuthe" && password=="321"{
+           alert ("Login successfully");
+          window.location = "amenityhome.html"; // Redirecting to other page.
+          return false;
+           }
 else{
 attempt --;// Decrementing by one.
 alert("You have left "+attempt+" attempt;");
