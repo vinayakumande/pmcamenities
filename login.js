@@ -3,7 +3,7 @@ var attempt = 3; // Variable to count number of attempts.
 function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
-if ( username == "ashish13" && password == "321"){
+if ( username == "ashish13" || "rmuthe" && password == "1947"){
 alert ("Login successfully");
 window.location = "amenityhome.html"; // Redirecting to other page.
 return false;
